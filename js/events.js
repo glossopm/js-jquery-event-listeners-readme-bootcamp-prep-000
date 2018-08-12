@@ -4,7 +4,16 @@ function getIt() {
   })
 }
 
+function frameIT() {
+  $('img').on('load', img.append('.tasty'))
+}
+
+function pressIT() {
+  
+}
 $(document).ready(function(){
 getIT()
+frameIt()
+pressIt()
 
 });
