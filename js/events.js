@@ -4,12 +4,12 @@ function getIt() {
   })
 }
 
-function frameIT() {
+function frameIt() {
   $('img').on('load', img.append('.tasty'))
 }
 
-function pressIT() {
-  
+function pressIt() {
+
 }
 $(document).ready(function(){
 getIT()
