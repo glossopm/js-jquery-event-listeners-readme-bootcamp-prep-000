@@ -5,12 +5,14 @@ function getIt() {
 }
 
 function frameIt() {
-  $('img').on('load', img.append('.tasty'))
+  $('img').on('load', function() {
+    $('img').addClass('.tasty')
+  })
 }
 
 function pressIt() {
   $('form').on('keydown', function(e) {
-    if(e.key === 71) {
+    if(e.which === 71) {
       alert("G was pressed")
       return
     }
